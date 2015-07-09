@@ -12,8 +12,15 @@ body {
 hr {
 	height: 3px; background: #bcbbbb;
 }
-.text-muted {
-	color: #bcbbbb;
+
+p.title {
+  padding: 0 20px 0 84px;
+  font-size: 1.5em;
+  color: #5b8112;
+  line-height: 1.9em;
+  margin: -30px 0 5px 0;
+  font-family: 'Lato',sans-serif;
+  font-style: italic;
 }
 
 .text-thin {
