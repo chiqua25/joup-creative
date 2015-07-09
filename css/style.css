@@ -51,7 +51,7 @@ p.title {
   padding-bottom: 15px;
   margin-bottom: 0;
   font-weight: bold;
-  color: #cc6055;
+  color: #ffcc05;
   text-align: center;
   background-color: #341a07; /* Old browsers */
   background-image: -webkit-gradient(linear, left top, left bottom, from(#542d11), to(#341a07));
@@ -100,7 +100,7 @@ p.title {
 
 .nav-justified li:hover a {
 	font-weight: bold;
-	color: #ffcc05;
+	color: #cc6055;
 }
   .nav-justified > li > a {
     border-right: 1px solid #d5d5d5;
