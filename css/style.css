@@ -5,15 +5,12 @@ body {
 }
 
 /* Header */
+header {
+  vertical-align: middle;
+}
 .header-logo {
 	margin: 0;
 }
-
-/* Content */
-hr {
-	height: 3px; background: #bcbbbb;
-}
-
 p.title {
   padding: 0 20px 0 84px;
   font-size: 1.5em;
@@ -24,22 +21,7 @@ p.title {
   font-style: italic;
 }
 
-.text-thin {
-	font-weight: 100;
-}
-
-.text-medium {
-	font-weight: 300;
-}
-
-.text-medium a {
-	font-size: 1.2em;
-}
-
-.text-large {
- 	font-size: 3em;
- }
-
+/* Navigation */
 .nav-justified {
   background-color: #eee;
   border: 1px solid #ccc;
@@ -81,6 +63,20 @@ p.title {
   border-radius: 0 5px 5px 5px;
 }
 
+/* Content */
+.text-thin {
+	font-weight: 100;
+}
+.text-medium {
+	font-weight: 300;
+}
+.text-medium a {
+	font-size: 1.2em;
+}
+.text-large {
+ 	font-size: 3em;
+ }
+
 @media (min-width: 768px) {
   .h2, h2 {
     font-size: 25px;
@@ -102,7 +98,6 @@ p.title {
   	  border-bottom: 1px solid #fa6b03;
   	/*border-left: 5px solid #542d11;*/
   }
-
   .nav-justified li:hover a,
   .nav-justified > .active > a:hover {
   	font-weight: bold;
@@ -125,10 +120,8 @@ p.title {
   }
 }
 
-
-
 /* Responsive: small mobile devices */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 499px) {
 /*  p.title {
     padding: 0 20px 0 68px;
     font-size: 0.8em;
