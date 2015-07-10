@@ -129,7 +129,7 @@ p.title {
 
 /* Responsive: small mobile devices */
 @media screen and (max-width: 500px) {
-  p.title {
+/*  p.title {
     padding: 0 20px 0 68px;
     font-size: 0.8em;
     color: #5b8112;
@@ -137,6 +137,9 @@ p.title {
     margin: -15px 0 5px 0;
     font-family: 'Lato',sans-serif;
     font-style: italic;
+  }*/
+  p.title {
+    display: none;
   }
   .header-logo {
     margin: 0;
