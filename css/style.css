@@ -130,7 +130,7 @@ p.title {
 /* Responsive: small mobile devices */
 @media screen and (max-width: 500px) {
   p.title {
-    padding: 0 20px 0 72px;
+    padding: 0 20px 0 65px;
     font-size: 0.8em;
     color: #5b8112;
     line-height: 0.9em;
