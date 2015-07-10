@@ -76,6 +76,10 @@ p.title {
 .text-large {
  	font-size: 3em;
  }
+ .ws_script {
+    position:absolute;
+    left:-99%
+ }
 
 @media (min-width: 768px) {
   .h2, h2 {
@@ -122,18 +126,6 @@ p.title {
 
 /* Responsive: small mobile devices */
 @media screen and (max-width: 499px) {
-/*  p.title {
-    padding: 0 20px 0 68px;
-    font-size: 0.8em;
-    color: #5b8112;
-    line-height: 0.9em;
-    margin: -15px 0 5px 0;
-    font-family: 'Lato',sans-serif;
-    font-style: italic;
-  }*/
-  p.title {
-    display: none;
-  }
   .header-logo {
     margin: 0;
     width: 75%;
@@ -153,29 +145,21 @@ p.title {
 }
 
 @media only screen and (min-width:501px) and (max-width: 767px) {
-  p.title {
-    padding: 0 20px 0 84px;
-    font-size: 0.9em;
-    color: #5b8112;
-    line-height: 1.9em;
-    margin: -20px 0 5px 0;
-    font-family: 'Lato',sans-serif;
-    font-style: italic;
-  }
   .featured-work {
     width:50%;
-  }
-  .text-medium a {
-    font-size: 1em;
   }
   .h2, h2 {
     font-size: 25px;
   }
+  .text-medium a {
+    font-size: 1em;
+  }
 }
 
 @media screen and (max-width: 767px) {
-  #wowslider-container0 {
-    display: none !important;
+  #wowslider-container0 img {
+      max-width: none !important;
+      height: 200px;
   }
   .navbar-toggle {
     position: relative;
