@@ -1,0 +1,22 @@
+p.title {
+  padding: 0 20px 0 72px;
+  font-size: 0.7em;
+  line-height: 0.9em;
+  margin: -15px 0 5px 0;
+}
+.header-logo {
+	margin: 0;
+	width: 75%;
+}
+#wowslider-container0 {
+	display: none;
+}
+.nav-justified > li:last-child > a {
+  border-radius: 0 0 5px 5px;
+}
+.text-medium a {
+  font-size: 1em;
+}
+.h2, h2 {
+  font-size: 20px;
+}
