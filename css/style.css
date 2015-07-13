@@ -1,13 +1,13 @@
 body {
     font-family: Lato, sans-serif;
     color: #1b1b29;
-    font-weight: 400
+    font-weight: 400;
 }
 
 
 /* Header */
 header {
-    vertical-align: middle
+    vertical-align: middle;
 }
 
 .header-text {
@@ -15,7 +15,7 @@ header {
     color: #653614;
     font-weight: 500;
     font-size: 3.5em;
-    margin: 15px 0 0 20px
+    margin: 15px 0 0 20px;
 }
 
 .header-logo {
@@ -29,7 +29,7 @@ p.title {
     font-family: Lato, sans-serif;
     font-style: italic;
     margin: 70px 0 0 -290px;
-    float: left
+    float: left;
 }
 
 
@@ -37,7 +37,7 @@ p.title {
 .nav-justified {
     background-color: #eee;
     border: 1px solid #ccc;
-    border-radius: 5px 5px 0 0
+    border-radius: 5px 5px 0 0;
 }
 
 .nav-justified>li>a {
@@ -52,12 +52,11 @@ p.title {
     background-image: -webkit-linear-gradient(top, #542d11 0, #341a07 100%);
     background-image: -o-linear-gradient(top, #542d11 0, #341a07 100%);
     background-image: linear-gradient(to bottom, #542d11 0, #341a07 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#542d11', endColorstr='#341a07', GradientType=0);
     background-repeat: repeat-x;
     border-bottom: 1px solid #341a07;
     -webkit-transition: all .1s ease-in;
     -moz-transition: all .1s ease-in;
-    -o-transition: all .1s ease-in
+    -o-transition: all .1s ease-in;
 }
 
 .nav-justified>.active>a,
@@ -67,38 +66,38 @@ p.title {
     color: #ffcc05;
     background-image: none;
     -webkit-box-shadow: inset 0 3px 7px rgba(0, 0, 0, .15);
-    box-shadow: inset 0 3px 7px rgba(0, 0, 0, .15)
+    box-shadow: inset 0 3px 7px rgba(0, 0, 0, .15);
 }
 
 .nav-justified>li:first-child>a {
-    border-radius: 5px 5px 0 0
+    border-radius: 5px 5px 0 0;
 }
 
 .nav-justified>li:last-child>a {
     border-bottom: 0;
-    border-radius: 0 5px 5px
+    border-radius: 0 5px 5px;
 }
 
 /* Text Styles */
 .text-thin {
-    font-weight: 100
+    font-weight: 100;
 }
 
 .text-medium {
-    font-weight: 300
+    font-weight: 300;
 }
 
 .text-medium a {
-    font-size: 1.2em
+    font-size: 1.2em;
 }
 
 .text-large {
-    font-size: 3em
+    font-size: 3em;
 }
 
 .ws_script {
     position: absolute;
-    left: -99%
+    left: -99%;
 }
 
 
@@ -109,17 +108,17 @@ p.title {
     /* Text Styles */
     .h2,
     h2 {
-        font-size: 25px
+        font-size: 25px;
     }
 
     .text-medium a {
-        font-size: 1em
+        font-size: 1em;
     }
 
 
     /* Navigation */
     .nav-justified {
-        max-height: 52px
+        max-height: 52px;
     }
 
     .nav-justified li:hover {
@@ -128,14 +127,13 @@ p.title {
         background-image: -webkit-linear-gradient(top, #fa6b03 0, #b65815 100%);
         background-image: -o-linear-gradient(top, #fa6b03 0, #b65815 100%);
         background-image: linear-gradient(to bottom, #fa6b03 0, #b65815 100%);
-        filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#fa6b03', endColorstr='#b65815', GradientType=0);
-        border-bottom: 1px solid #fa6b03
+        border-bottom: 1px solid #fa6b03;
     }
 
     .nav-justified li:hover a,
     .nav-justified>.active>a:hover {
         font-weight: 700;
-        color: #cc6055
+        color: #cc6055;
     }
 
     .nav-justified>li>a {
@@ -143,17 +141,17 @@ p.title {
         border-left: 1px solid #fff;
         -webkit-transition: all .3s ease-in;
         -moz-transition: all .3s ease-in;
-        -o-transition: all .3s ease-in
+        -o-transition: all .3s ease-in;
     }
 
     .nav-justified>li:first-child>a {
         border-left: 0;
-        border-radius: 5px 0 0
+        border-radius: 5px 0 0;
     }
 
     .nav-justified>li:last-child>a {
         border-right: 0;
-        border-radius: 0 5px 0 0
+        border-radius: 0 5px 0 0;
     }
 
 }
@@ -164,7 +162,7 @@ p.title {
     /* Header */
     .header-logo {
         margin: 0;
-        max-width: 20%
+        max-width: 20%;
     }
 
     .header-text {
@@ -172,7 +170,7 @@ p.title {
         color: #653614;
         font-weight: 500;
         font-size: 2.2em;
-        margin: 15px 0 0 10px
+        margin: 15px 0 0 10px;
     }
 
     p.title {
@@ -181,25 +179,25 @@ p.title {
         line-height: 1.9em;
         margin: 50px 0 5px -180px;
         font-family: Lato, sans-serif;
-        font-style: italic
+        font-style: italic;
     }
 
 
     /* Text Styles */
     .text-medium a {
-        font-size: 1em
+        font-size: 1em;
     }
 
     .h2,
     h2 {
-        font-size: 20px
+        font-size: 20px;
     }
 
 
     /* Navigation */
     .nav-justified>li:first-child>a,
     .nav-justified>li:last-child>a {
-        border-radius: 0
+        border-radius: 0;
     }
 
 }
@@ -208,17 +206,17 @@ p.title {
 
     /* Featured Content */
     .featured-work {
-        width: 50%
+        width: 50%;
     }
 
 
     /* Text Styles */
     .h2,
     h2 {
-        font-size: 25px
+        font-size: 25px;
     }
     .text-medium a {
-        font-size: 1em
+        font-size: 1em;
     }
 }
 @media screen and (max-width: 767px) {
@@ -226,7 +224,7 @@ p.title {
 
     /* Slider */
     #wowslider-container0 img {
-        max-width: none!important
+        max-width: none!important;
     }
 
 
@@ -239,26 +237,26 @@ p.title {
         background-color: #542d11;
         background-image: none;
         border: 1px solid transparent;
-        border-radius: 4px
+        border-radius: 4px;
     }
     .navbar-toggle .icon-bar {
         display: block;
         width: 22px;
         height: 2px;
         border-radius: 1px;
-        background-color: #ffcc05
+        background-color: #ffcc05;
     }
     .navbar-header {
         background-color: #ad4d07;
         margin: 0 15px 0 15px;
-        box-shadow: inset 0 3px 7px rgba(0, 0, 0, .15)
+        box-shadow: inset 0 3px 7px rgba(0, 0, 0, .15);
     }
     .container-fluid>.navbar-collapse,
     .container-fluid>.navbar-header,
     .container>.navbar-collapse,
     .container>.navbar-header {
         margin-right: -15px;
-        margin-left: -15px
+        margin-left: -15px;
     }
 }
 @media screen and (min-width: 768px) {
@@ -270,6 +268,6 @@ p.title {
     .masthead,
     .navbar-collapse {
         padding-right: 0;
-        padding-left: 0
+        padding-left: 0;
     }
 }
