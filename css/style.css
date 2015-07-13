@@ -1,7 +1,6 @@
 body {
-    font-family: Lato, sans-serif;
+    font: Lato, sans-serif 400;
     color: #1b1b29;
-    font-weight: 400;
 }
 
 
@@ -11,10 +10,8 @@ header {
 }
 
 .header-text {
-    font-family: 'Gloria Hallelujah', cursive;
+    font: 'Gloria Hallelujah', cursive 500 3.5em;
     color: #653614;
-    font-weight: 500;
-    font-size: 3.5em;
     margin: 15px 0 0 20px;
 }
 
@@ -23,11 +20,9 @@ header {
 }
 
 p.title {
-    font-size: 1.5em;
+    font: Lato, sans-serif italic 1.5em;
     color: #5b8112;
     line-height: 1.9em;
-    font-family: Lato, sans-serif;
-    font-style: italic;
     margin: 70px 0 0 -290px;
     float: left;
 }
@@ -41,8 +36,8 @@ p.title {
 }
 
 .nav-justified>li>a {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top:15px;
+    padding-bottom:15px;
     margin-bottom: 0;
     font-weight: 700;
     color: #ffcc05;
@@ -166,20 +161,16 @@ p.title {
     }
 
     .header-text {
-        font-family: 'Gloria Hallelujah', cursive;
+        font: 'Gloria Hallelujah', cursive 500 2.2em;
         color: #653614;
-        font-weight: 500;
-        font-size: 2.2em;
         margin: 15px 0 0 10px;
     }
 
     p.title {
-        font-size: 1em;
         color: #5b8112;
         line-height: 1.9em;
         margin: 50px 0 5px -180px;
-        font-family: Lato, sans-serif;
-        font-style: italic;
+        font: Lato, sans-serif 1em italic;
     }
 
 
