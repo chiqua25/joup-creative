@@ -1,5 +1,5 @@
 body {
-    font: 400 'Lato', sans-serif;
+    font: 400  16px/1.0 'Lato', Helvetica, sans-serif;
     color: #1b1b29;
 }
 
@@ -12,7 +12,7 @@ header {
 .header-text {
     font: 500  3.5em 'Gloria Hallelujah', cursive;
     color: #653614;
-    margin: 15px 0 0 20px;
+    margin: 0 0 0 10px;
 }
 
 .header-logo {
@@ -20,10 +20,9 @@ header {
 }
 
 p.title {
-    font: 1.5em 'Lato', sans-serif, italic;
+    font: 1.5em/1.9 'Lato', sans-serif, italic;
     color: #5b8112;
-    line-height: 1.9em;
-    margin: 83px 0 0 -290px;
+    margin: 77px 0 0 -325px;
     float: left;
 }
 
@@ -163,13 +162,13 @@ p.title {
     .header-text {
         font: 500 2.2em 'Gloria Hallelujah', cursive;
         color: #653614;
-        margin: 15px 0 0 10px;
+        margin: 5px 0 0 5px;
     }
 
     p.title {
         color: #5b8112;
         line-height: 1.9em;
-        margin: 62px 0 5px -180px;
+        margin: 60px 0 5px -208px;
         font: 1em 'Lato', sans-serif, italic;
     }
 
